@@ -19,6 +19,8 @@ spec:
       - image: aryangupta4460/myweb
         imagePullPolicy: Always
         name: myweb
+        ports:
+        - containerPort: 80        
 
 ---
 apiVersion: v1
