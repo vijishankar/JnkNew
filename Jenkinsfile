@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Aryan-Gupta4460/JenkinExe.git'
+        git 'https://github.com/Aryan-Gupta4460/JnkNew.git'
       }
     }
 
