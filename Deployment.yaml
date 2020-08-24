@@ -13,7 +13,7 @@ spec:
       spec:
         containers:
         - name: myweb
-          image: docker.io/aryangupta4460/myweb:latest
+          image: aryangupta4460/myweb:latest
           ports:
           - containerPort: 80
             hostPort: 8081
