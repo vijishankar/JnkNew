@@ -36,8 +36,8 @@ pipeline {
     stage('Deploy App to local k8s') {
       steps {
         script { 
-           sh 'kubectl apply -f Service.yaml'
            sh 'kubectl apply -f Deployment.yaml'
+           sh 'kubectl apply -f Service.yaml'
                
         }
       }
