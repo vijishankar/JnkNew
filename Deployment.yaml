@@ -13,7 +13,7 @@ spec:
       spec:
         containers:
         - name: myweb
-          image: aryangupta4460/myweb:latest
+          image: aryangupta4460/myweb:1
           ports:
           - containerPort: 80
             hostPort: 8000
